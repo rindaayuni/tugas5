@@ -1,0 +1,52 @@
+
+html{
+	scroll-behavior: smooth;
+}
+.navbar{
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+	background-color: #00a65a !important;
+}
+.navbar-brand,
+.nav-link{
+	color: #FFF !important
+}
+.feature{
+	background: #dedede;
+}
+.feture-title{
+	font-size: 22px;
+	display: block;
+	text-align: center;
+	padding: 20px 0;
+}
+.card-feature{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: #FFF;
+	text-align: center;
+}
+.card-feature i{
+	display: block;
+	font-size: 60px;
+	margin-bottom: 10px;
+}
+.card-feature span{
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.card{
+	margin-bottom: 20px !important;
+}
+.modal-content .modal-header.bg-red{
+	background: red !important;
+	color: #FFF !important;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 0;
+}
